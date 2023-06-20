@@ -1,0 +1,5 @@
+# https://polyaxon.com/polyaxon-ce/
+$ kubectl create namespace polyaxon
+$ helm repo add polyaxon https://charts.polyaxon.com
+$ helm install polyaxon https://charts.polyaxon.com --namespace polyaxon
+$ kubectl get svc --namespace polyaxon

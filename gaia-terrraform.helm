@@ -1,0 +1,4 @@
+# https://github.com/gaia-app/gaia
+$ kubectl create namespace gaia
+$ helm install gaia https://github.com/gaia-app/chart/archive/refs/tags/v0.1.2.tar.gz --namespace gaia
+$ kubectl get svc --namespace gaia

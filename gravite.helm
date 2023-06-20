@@ -1,0 +1,3 @@
+# https://www.gravitee.io/downloads
+$ helm repo add graviteeio https://helm.gravitee.io
+$ helm install --name graviteeio-apim3x graviteeio/apim3  
