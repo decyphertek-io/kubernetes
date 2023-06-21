@@ -1,0 +1,4 @@
+# https://jfrog.com/download-jfrog-platform/
+
+$ helm repo add jfrog https://charts.jfrog.io/
+$ helm install -name jfrog-platform jfrog/jfrog-platform
