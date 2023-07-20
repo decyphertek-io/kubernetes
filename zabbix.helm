@@ -1,0 +1,4 @@
+# https://artifacthub.io/packages/helm/zabbix-community/zabbix
+$ helm repo add zabbix-community https://zabbix-community.github.io/helm-zabbix
+$ helm repo update
+$ helm install zabbix-community https://zabbix-community.github.io/helm-zabbix
