@@ -1,0 +1,3 @@
+# https://artifacthub.io/packages/helm/artifact-hub/artifact-hub
+$ helm repo add artifact-hub https://artifacthub.github.io/helm-charts
+$ helm install hub artifact-hub/artifact-hub
