@@ -1,0 +1,7 @@
+helm repo add portainer https://portainer.github.io/k8s/
+helm repo update
+kubectl create namespace portainer
+# Nodeport allows internet access, bypasses any loadbalancer or ingress controller setup. 
+helm install -n portainer portainer portainer/portainer --set service.type=NodePort
+kubectl get svc --namespace=portainer
+> browser: https://IP-OF-Server:30779/
