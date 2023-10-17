@@ -5,6 +5,19 @@ There is a few different ways to run Kubernetes, which can be viewed as a networ
 Setuping clusters and nodes via a yaml configuration can simplify infrastructure deployment. Some of the 
 kubernetes options is AWS Eks , Microka8s , CoreOS , Rancher , Minikube , OpenShift, OKD, etc. 
 
+K3s
+------
+
+K3s is Ranchers lightweight version of kubernetes.
+
+K3s - Install
+-------------
+
+    $ curl -sfL https://get.k3s.io | sh -
+    $ sudo kubectl get services
+    # if you dont want to use sudo
+    $ sudo chown $USER:$USER /etc/rancher/k3s/k3s.yaml
+
 Microk8s
 ---------
 Microk8s is Canonical's Kubernetes. Easy to install via snap. Enterprise ready or can experiment locally. Crossplatform. 
